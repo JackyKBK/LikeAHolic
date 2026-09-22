@@ -1,0 +1,42 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.center {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.post-item {
+    margin-bottom: 20px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.posts-list {
+    max-height: 80vh;
+    overflow-y: auto;
+}
+.posts-list {
+    padding-top: 60px;
+}
+.posts-container {
+    min-height: calc(100vh - 60px);
+    overflow-y: auto;
+}
