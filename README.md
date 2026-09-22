@@ -32,5 +32,6 @@ A full-stack social media application featuring a React frontend and a Java Spri
 - ## Credits
 
 https://github.com/JackyKBK
+
 https://github.com/TMBJake
  
